@@ -347,6 +347,9 @@ public class ImplementationOfLinkedList {
         }
         return slow;
     }
+    public void makeCircular(){
+        tail.next = head;
+    }
     public static void main(String[] args) {
         ImplementationOfLinkedList ll = new ImplementationOfLinkedList();
         // ll.addLast(1);
@@ -388,11 +391,14 @@ public class ImplementationOfLinkedList {
         // System.out.println(ll.detectCycle());
         // printLinkedList();
         // head = ll.mergeSort(head);
+        // printLinkedList();
+        // Node zigNode = ll.zigzagLinkedList(head);
+        // while(zigNode!=null){
+        //     System.out.println(zigNode.data);
+        //     zigNode = zigNode.next;
+        // }
         printLinkedList();
-        Node zigNode = ll.zigzagLinkedList(head);
-        while(zigNode!=null){
-            System.out.println(zigNode.data);
-            zigNode = zigNode.next;
-        }
+        // ll.makeCircular();
+        printLinkedList();
     }
 }

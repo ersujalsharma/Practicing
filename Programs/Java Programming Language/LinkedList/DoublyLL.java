@@ -82,6 +82,10 @@ public class DoublyLL {
         prev.prev = null;
         DoublyLL.head = prev;
     }
+    public void makeCircular(){
+        tail.next = head;
+        head.prev = tail;
+    }
 
     public static void main(String[] args) {
         DoublyLL list = new DoublyLL();
@@ -100,5 +104,11 @@ public class DoublyLL {
         list.addLast(3);
         list.reverseDoublyLinkedList(head);
         list.printDoublyLL();
+        // list.makeCircular();
+        list.printDoublyLL();
+        while(tail!=null){
+            System.out.println(tail.data);
+            tail = tail.prev;
+        }
     }
 }
