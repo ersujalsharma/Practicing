@@ -247,6 +247,106 @@ public class ImplementationOfLinkedList {
         }
         prev.next = null;
     }
+    public Node midForMergeSort(Node head){
+        Node slow = head;
+        Node  fast = head.next;
+        while(fast!=null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+    public Node mergeSort(Node head){
+        if(head==null || head.next == null){
+            return head;
+        }
+        // find mid
+        Node mid = midForMergeSort(head);
+        Node rightHead = mid.next;
+        mid.next = null;
+        Node left = mergeSort(head);
+        Node right =  mergeSort(rightHead);
+        return mergeTwoSortedLinkedList(left,right);
+    }
+    private Node mergeTwoSortedLinkedList(Node leftHead, Node rightHead) {
+        Node mergedList = new Node(-1);
+        Node temp= mergedList;
+        while(leftHead!=null && rightHead != null){
+            if(leftHead.data<=rightHead.data){
+                temp.next = leftHead;
+                leftHead = leftHead.next;
+            }
+            else{
+                temp.next = rightHead;
+                rightHead = rightHead.next;
+            }
+            temp = temp.next;
+        }
+        while(leftHead!=null){
+            temp.next = leftHead;
+            leftHead = leftHead.next;
+            temp = temp.next;
+        }
+        while(rightHead!=null){
+            temp.next = rightHead;
+            rightHead = rightHead.next;
+            temp = temp.next;
+        }
+        return mergedList.next;
+    }
+    
+    public Node zigzagLinkedList(Node head){
+        Node mid = findMid(head);
+        Node rightHead = mid.next;
+        mid.next = null;
+        Node reversedNode = reverse(rightHead);
+        Node merged = mergeTwoInZigZag(head,reversedNode);
+        return merged;
+    }
+
+    private Node mergeTwoInZigZag(Node head2, Node reversedNode) {
+        Node temp = new Node(-1);
+        Node nodeToReturn = temp;
+        while(head2!=null && reversedNode != null){
+            temp.next = head2;
+            head2 = head2.next;
+            temp.next.next = reversedNode;
+            reversedNode = reversedNode.next;
+            temp = temp.next.next;
+        }
+        while(head2!=null){
+            temp.next = head2;
+            head2 = head2.next;
+            temp = temp.next;
+        }
+        while(reversedNode!=null){
+            temp.next = reversedNode;
+            reversedNode = reversedNode.next;
+            temp = temp.next;
+        }
+        return nodeToReturn.next;
+    }
+    private Node reverse(Node rightHead) {
+        Node prev = null;
+        Node cur = rightHead;
+        Node next;
+        while(cur!=null){
+            next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+        }
+        return prev;
+    }
+    private Node findMid(Node head2) {
+        Node slow = head;
+        Node fast = head.next;
+        while(fast!=null && fast.next !=null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
     public static void main(String[] args) {
         ImplementationOfLinkedList ll = new ImplementationOfLinkedList();
         // ll.addLast(1);
@@ -255,6 +355,12 @@ public class ImplementationOfLinkedList {
         // ll.addFirst(2);
         // ll.add(2, 7);
         // ll.add(2, 7);
+        ll.addLast(1);
+        ll.addLast(2);
+        ll.addLast(3);
+        ll.addLast(4);
+        ll.addLast(5);
+        ll.addLast(6);
         // printLinkedList();
         // System.out.println(ll.removeFirst());
         // printLinkedList();
@@ -272,13 +378,21 @@ public class ImplementationOfLinkedList {
         // Node pointerOfrev = ll.reverseFromNode(mid);
         // System.out.println(checkPalindromeOrNot(pointerOfrev));
         // tail.next = head;
-        head = new Node(1);
-        Node temp = new Node(2);
-        head.next = temp;
-        head.next.next = new Node(3);
-        head.next.next.next = temp;
-        System.out.println(ll.detectCycle());
-        ll.removecycle();
-        System.out.println(ll.detectCycle());
+        // head = new Node(1);
+        // Node temp = new Node(2);
+        // head.next = temp;
+        // head.next.next = new Node(3);
+        // head.next.next.next = temp;
+        // System.out.println(ll.detectCycle());
+        // ll.removecycle();
+        // System.out.println(ll.detectCycle());
+        // printLinkedList();
+        // head = ll.mergeSort(head);
+        printLinkedList();
+        Node zigNode = ll.zigzagLinkedList(head);
+        while(zigNode!=null){
+            System.out.println(zigNode.data);
+            zigNode = zigNode.next;
+        }
     }
 }
