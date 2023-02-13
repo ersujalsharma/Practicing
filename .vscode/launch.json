@@ -1,0 +1,1064 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TrappingRainWater",
+            "request": "launch",
+            "mainClass": "Stack.Assignments.TrappingRainWater",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example",
+            "request": "launch",
+            "mainClass": "Stack.Assignments.Example",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecodeString",
+            "request": "launch",
+            "mainClass": "Stack.Assignments.DecodeString",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimplyfyPath",
+            "request": "launch",
+            "mainClass": "Stack.Assignments.SimplyfyPath",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeLinkedList",
+            "request": "launch",
+            "mainClass": "Stack.Assignments.PalindromeLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumAreainHistogram",
+            "request": "launch",
+            "mainClass": "Stack.MaximumAreainHistogram",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateParantheses",
+            "request": "launch",
+            "mainClass": "Stack.DuplicateParantheses",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParantheses",
+            "request": "launch",
+            "mainClass": "Stack.ValidParantheses",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextGreaterElement",
+            "request": "launch",
+            "mainClass": "Stack.NextGreaterElement",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockSpanProblem",
+            "request": "launch",
+            "mainClass": "Stack.StockSpanProblem",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseAStack",
+            "request": "launch",
+            "mainClass": "Stack.ReverseAStack",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStringUsingLinkedList",
+            "request": "launch",
+            "mainClass": "Stack.ReverseStringUsingLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PushAtBottom",
+            "request": "launch",
+            "mainClass": "Stack.PushAtBottom",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackUsingCF",
+            "request": "launch",
+            "mainClass": "Stack.StackUsingCF",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackUsingLL",
+            "request": "launch",
+            "mainClass": "Stack.StackUsingLL",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackB",
+            "request": "launch",
+            "mainClass": "Stack.StackB",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeKSortedLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.Assignments.MergeKSortedLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEvenLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.Assignments.OddEvenLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwappingNodesInALinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.Assignments.SwappingNodesInALinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeautifulArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.Assignments.BeautifulArrayList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch LonelyNumbersInArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.Assignments.LonelyNumbersInArrayList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MonotonicArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.Assignments.MonotonicArrayList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MostFrequestNumberFollowingKey",
+            "request": "launch",
+            "mainClass": "ArrayList.Assignments.MostFrequestNumberFollowingKey",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContainerWithMostWater",
+            "request": "launch",
+            "mainClass": "ArrayList.ContainerWithMostWater",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumNumberInArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.MaximumNumberInArrayList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiDimensionalArrays",
+            "request": "launch",
+            "mainClass": "ArrayList.MultiDimensionalArrays",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pair_Sum_1",
+            "request": "launch",
+            "mainClass": "ArrayList.Pair_Sum_1",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.PrintArrayList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortingInArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.SortingInArrayList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapTwoNumbers",
+            "request": "launch",
+            "mainClass": "ArrayList.SwapTwoNumbers",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysCC",
+            "request": "launch",
+            "mainClass": "Arrays.ArraysCC",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question1_AppearsAtLeasttwiceInAnArray",
+            "request": "launch",
+            "mainClass": "Arrays.Assignment.Question1_AppearsAtLeasttwiceInAnArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question2_BinarySearch",
+            "request": "launch",
+            "mainClass": "Arrays.Assignment.Question2_BinarySearch",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question3_buyAndSellStock",
+            "request": "launch",
+            "mainClass": "Arrays.Assignment.Question3_buyAndSellStock",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question4_TrappingWater",
+            "request": "launch",
+            "mainClass": "Arrays.Assignment.Question4_TrappingWater",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Question5_ThreeSumEqualsZero",
+            "request": "launch",
+            "mainClass": "Arrays.Assignment.Question5_ThreeSumEqualsZero",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "Arrays.BinarySearch",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContinousSubArray",
+            "request": "launch",
+            "mainClass": "Arrays.ContinousSubArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestNumber",
+            "request": "launch",
+            "mainClass": "Arrays.LargestNumber",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearch",
+            "request": "launch",
+            "mainClass": "Arrays.LinearSearch",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArraySum",
+            "request": "launch",
+            "mainClass": "Arrays.MaxSubArraySum",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArraySum2",
+            "request": "launch",
+            "mainClass": "Arrays.MaxSubArraySum2",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArraysKadanesAlgorithm",
+            "request": "launch",
+            "mainClass": "Arrays.MaxSubArraysKadanesAlgorithm",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairsInAnArray",
+            "request": "launch",
+            "mainClass": "Arrays.PairsInAnArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseAnArray",
+            "request": "launch",
+            "mainClass": "Arrays.ReverseAnArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrappingWaterUsingAuxillaryArrays",
+            "request": "launch",
+            "mainClass": "Arrays.TrappingWaterUsingAuxillaryArrays",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch buyAnsSellStocks",
+            "request": "launch",
+            "mainClass": "Arrays.buyAnsSellStocks",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch KeyPadCombination",
+            "request": "launch",
+            "mainClass": "BackTracking.Assignments.KeyPadCombination",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch KnightPlacedOnABoard",
+            "request": "launch",
+            "mainClass": "BackTracking.Assignments.KnightPlacedOnABoard",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch KnightTours",
+            "request": "launch",
+            "mainClass": "BackTracking.Assignments.KnightTours",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch RatInAMaze",
+            "request": "launch",
+            "mainClass": "BackTracking.Assignments.RatInAMaze",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FillAndDecreaseTheArray",
+            "request": "launch",
+            "mainClass": "BackTracking.FillAndDecreaseTheArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindSubsets",
+            "request": "launch",
+            "mainClass": "BackTracking.FindSubsets",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch GridWays",
+            "request": "launch",
+            "mainClass": "BackTracking.GridWays",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch NQueens",
+            "request": "launch",
+            "mainClass": "BackTracking.NQueens",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sudoku",
+            "request": "launch",
+            "mainClass": "BackTracking.Sudoku",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch findPermutations",
+            "request": "launch",
+            "mainClass": "BackTracking.findPermutations",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add1UsingBitManipulation",
+            "request": "launch",
+            "mainClass": "BitManipulation.Add1UsingBitManipulation",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckIfANumberIsPowerOf2OrNot",
+            "request": "launch",
+            "mainClass": "BitManipulation.CheckIfANumberIsPowerOf2OrNot",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckIfGivenNumberIsEvenOrOdd",
+            "request": "launch",
+            "mainClass": "BitManipulation.CheckIfGivenNumberIsEvenOrOdd",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClearRangeOfBits",
+            "request": "launch",
+            "mainClass": "BitManipulation.ClearRangeOfBits",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertUpperToLowerCase",
+            "request": "launch",
+            "mainClass": "BitManipulation.ConvertUpperToLowerCase",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountSetBIts",
+            "request": "launch",
+            "mainClass": "BitManipulation.CountSetBIts",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecimalToBinary",
+            "request": "launch",
+            "mainClass": "BitManipulation.DecimalToBinary",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FastExponentiation",
+            "request": "launch",
+            "mainClass": "BitManipulation.FastExponentiation",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Get_Set_Clear_IthBit",
+            "request": "launch",
+            "mainClass": "BitManipulation.Get_Set_Clear_IthBit",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnesComplementLearning",
+            "request": "launch",
+            "mainClass": "BitManipulation.OnesComplementLearning",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapTwoVariablesWithousUsingThirdVariable",
+            "request": "launch",
+            "mainClass": "BitManipulation.SwapTwoVariablesWithousUsingThirdVariable",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.Calculator",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckEvenOdd",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.CheckEvenOdd",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckEvenOddViaTernaryOperator",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.CheckEvenOddViaTernaryOperator",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckIndividualIsVoterOrNot",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.CheckIndividualIsVoterOrNot",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckStudentPassOrFail",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.CheckStudentPassOrFail",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch IncomeTaxCalculator",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.IncomeTaxCalculator",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintLargestOf2Numbers",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.PrintLargestOf2Numbers",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintLargestOf3Numbers",
+            "request": "launch",
+            "mainClass": "ConditionalStatements.PrintLargestOf3Numbers",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMajorityElement",
+            "request": "launch",
+            "mainClass": "Divide_Conquer.Assignment.FindMajorityElement",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch InversionCountIntheArray",
+            "request": "launch",
+            "mainClass": "Divide_Conquer.Assignment.InversionCountIntheArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortStringsArrayUsingMergeSort",
+            "request": "launch",
+            "mainClass": "Divide_Conquer.Assignment.SortStringsArrayUsingMergeSort",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "Divide_Conquer.MergeSort",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "Divide_Conquer.QuickSort",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInARotatedSortedArray",
+            "request": "launch",
+            "mainClass": "Divide_Conquer.SearchInARotatedSortedArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch AssignmentOfOPerators",
+            "request": "launch",
+            "mainClass": "Fundamentals.AssignmentOfOPerators",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaBasics",
+            "request": "launch",
+            "mainClass": "Fundamentals.JavaBasics",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteNNodesAfterMNodes",
+            "request": "launch",
+            "mainClass": "LinkedList.Assignments.DeleteNNodesAfterMNodes",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntersectionOfTwoLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.Assignments.IntersectionOfTwoLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.CircularLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoublyLL",
+            "request": "launch",
+            "mainClass": "LinkedList.DoublyLL",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImplementationOfLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.ImplementationOfLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListCollectionFrameWork",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedListCollectionFrameWork",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort(1)",
+            "request": "launch",
+            "mainClass": "LinkedList.MergeSort",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortOnALinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.MergeSortOnALinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumber1to10WhileLoop",
+            "request": "launch",
+            "mainClass": "Loops.PrintNumber1to10WhileLoop",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumber1toN",
+            "request": "launch",
+            "mainClass": "Loops.PrintNumber1toN",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumberWhichIsNotMultipleOf10",
+            "request": "launch",
+            "mainClass": "Loops.PrintNumberWhichIsNotMultipleOf10",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintReverseOfANumber",
+            "request": "launch",
+            "mainClass": "Loops.PrintReverseOfANumber",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSquarePattern",
+            "request": "launch",
+            "mainClass": "Loops.PrintSquarePattern",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfFirstNNaturalNumber",
+            "request": "launch",
+            "mainClass": "Loops.SumOfFirstNNaturalNumber",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ButterFlyPattern",
+            "request": "launch",
+            "mainClass": "Pattern.ButterFlyPattern",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiamondPattern",
+            "request": "launch",
+            "mainClass": "Pattern.DiamondPattern",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloydTrianglePattern",
+            "request": "launch",
+            "mainClass": "Pattern.FloydTrianglePattern",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch HollowRectangularPattern",
+            "request": "launch",
+            "mainClass": "Pattern.HollowRectangularPattern",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch HollowRhombus",
+            "request": "launch",
+            "mainClass": "Pattern.HollowRhombus",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedHalfPyramidWIthNumbers",
+            "request": "launch",
+            "mainClass": "Pattern.InvertedHalfPyramidWIthNumbers",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inverted_RotatedHalfPyramid",
+            "request": "launch",
+            "mainClass": "Pattern.Inverted_RotatedHalfPyramid",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolidRhombus",
+            "request": "launch",
+            "mainClass": "Pattern.SolidRhombus",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZeroOnePattern",
+            "request": "launch",
+            "mainClass": "Pattern.ZeroOnePattern",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountAllSubstringsWihichStartingAndEndingCharactersAreSame",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.CountAllSubstringsWihichStartingAndEndingCharactersAreSame",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindLengthOfString",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.FindLengthOfString",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberToStringConversion",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.NumberToStringConversion",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchAllOccurencesOfAGivenElement",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.SearchAllOccurencesOfAGivenElement",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.TowerOfHanoi",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckIfAGivenArrayIsSortedArrayOrNot",
+            "request": "launch",
+            "mainClass": "Recursion.CheckIfAGivenArrayIsSortedArrayOrNot",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstOccurenceOfAElementInAnArray",
+            "request": "launch",
+            "mainClass": "Recursion.FirstOccurenceOfAElementInAnArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FriendsPairingProblem",
+            "request": "launch",
+            "mainClass": "Recursion.FriendsPairingProblem",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch LastOccurenceOfAElementInAnArray",
+            "request": "launch",
+            "mainClass": "Recursion.LastOccurenceOfAElementInAnArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintAllBinaryCaseOfSizeNWithoutConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "Recursion.PrintAllBinaryCaseOfSizeNWithoutConsecutiveOnes",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintFaactorialOfANumberN",
+            "request": "launch",
+            "mainClass": "Recursion.PrintFaactorialOfANumberN",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNthFibonacciNumber",
+            "request": "launch",
+            "mainClass": "Recursion.PrintNthFibonacciNumber",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumber1toN(1)",
+            "request": "launch",
+            "mainClass": "Recursion.PrintNumber1toN",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumbersFromNto1",
+            "request": "launch",
+            "mainClass": "Recursion.PrintNumbersFromNto1",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintXToThePowerN",
+            "request": "launch",
+            "mainClass": "Recursion.PrintXToThePowerN",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesInAString",
+            "request": "launch",
+            "mainClass": "Recursion.RemoveDuplicatesInAString",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfNNumbers",
+            "request": "launch",
+            "mainClass": "Recursion.SumOfNNumbers",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch TilingProblem",
+            "request": "launch",
+            "mainClass": "Recursion.TilingProblem",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSortingInDescendingOrder",
+            "request": "launch",
+            "mainClass": "SortingArrays.Assignments.BubbleSortingInDescendingOrder",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingSortInDescendingOrder",
+            "request": "launch",
+            "mainClass": "SortingArrays.Assignments.CountingSortInDescendingOrder",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSortingDescendingOrder",
+            "request": "launch",
+            "mainClass": "SortingArrays.Assignments.InsertionSortingDescendingOrder",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSortingInDecreasingOrder",
+            "request": "launch",
+            "mainClass": "SortingArrays.Assignments.SelectionSortingInDecreasingOrder",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSorting",
+            "request": "launch",
+            "mainClass": "SortingArrays.BubbleSorting",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingSort",
+            "request": "launch",
+            "mainClass": "SortingArrays.CountingSort",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSorting",
+            "request": "launch",
+            "mainClass": "SortingArrays.InsertionSorting",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "SortingArrays.SelectionSort",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckIfAStringIsPalindromeOrNot",
+            "request": "launch",
+            "mainClass": "Strings.CheckIfAStringIsPalindromeOrNot",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckTwoStringsAreAnagramsOrNot",
+            "request": "launch",
+            "mainClass": "Strings.CheckTwoStringsAreAnagramsOrNot",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertEachLetterOfEachWordToUpperCase",
+            "request": "launch",
+            "mainClass": "Strings.ConvertEachLetterOfEachWordToUpperCase",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountLowerCaseVowels",
+            "request": "launch",
+            "mainClass": "Strings.CountLowerCaseVowels",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindShortestPathFor4Direction",
+            "request": "launch",
+            "mainClass": "Strings.FindShortestPathFor4Direction",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintLargestStringLexicographical",
+            "request": "launch",
+            "mainClass": "Strings.PrintLargestStringLexicographical",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBufferLearning",
+            "request": "launch",
+            "mainClass": "Strings.StringBufferLearning",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringComparisionUsingStringBuilder",
+            "request": "launch",
+            "mainClass": "Strings.StringComparisionUsingStringBuilder",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringCompression",
+            "request": "launch",
+            "mainClass": "Strings.StringCompression",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumberOf7In2DArray",
+            "request": "launch",
+            "mainClass": "Two_D_Arrays.Assignments.PrintNumberOf7In2DArray",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSumOfNumberInTheSecondRow",
+            "request": "launch",
+            "mainClass": "Two_D_Arrays.Assignments.PrintSumOfNumberInTheSecondRow",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransposeOfTheMatrix",
+            "request": "launch",
+            "mainClass": "Two_D_Arrays.Assignments.TransposeOfTheMatrix",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiagonalSum",
+            "request": "launch",
+            "mainClass": "Two_D_Arrays.DiagonalSum",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInASortedMatrix",
+            "request": "launch",
+            "mainClass": "Two_D_Arrays.SearchInASortedMatrix",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchSmallestAndLargestIn2DArrays",
+            "request": "launch",
+            "mainClass": "Two_D_Arrays.SearchSmallestAndLargestIn2DArrays",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralMatrix",
+            "request": "launch",
+            "mainClass": "Two_D_Arrays.SpiralMatrix",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Complex",
+            "request": "launch",
+            "mainClass": "oops.Complex",
+            "projectName": "Practicing_275d5314"
+        }
+    ]
+}
