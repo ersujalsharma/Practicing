@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QueueUsingDeque",
+            "request": "launch",
+            "mainClass": "Queue.Deque.QueueUsingDeque",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackUsingDeque",
+            "request": "launch",
+            "mainClass": "Queue.Deque.StackUsingDeque",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueReversal",
+            "request": "launch",
+            "mainClass": "Queue.QueueReversal",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterleaveTwoHalvesOfAQueue",
+            "request": "launch",
+            "mainClass": "Queue.InterleaveTwoHalvesOfAQueue",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstNonRepeatingLetter",
+            "request": "launch",
+            "mainClass": "Queue.FirstNonRepeatingLetter",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackUsingTwoQueues",
+            "request": "launch",
+            "mainClass": "Queue.StackUsingTwoQueues",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueUsingTwoStackPopN",
+            "request": "launch",
+            "mainClass": "Queue.QueueUsingTwoStackPopN",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueUsingTwoStacks",
+            "request": "launch",
+            "mainClass": "Queue.QueueUsingTwoStacks",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueUsingLinkedList",
+            "request": "launch",
+            "mainClass": "Queue.QueueUsingLinkedList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularQueue",
+            "request": "launch",
+            "mainClass": "Queue.CircularQueue",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueImplementation",
+            "request": "launch",
+            "mainClass": "Queue.QueueImplementation",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "Launch TrappingRainWater",
             "request": "launch",
             "mainClass": "Stack.Assignments.TrappingRainWater",
