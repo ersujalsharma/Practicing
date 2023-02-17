@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ActivitySelection",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.ActivitySelection",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "Launch ConnectNRopesWithMinimumCost",
             "request": "launch",
             "mainClass": "Queue.Assignments.ConnectNRopesWithMinimumCost",
