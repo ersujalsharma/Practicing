@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LexicographicallySmallest",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.Assignments.LexicographicallySmallest",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "Launch KthLargestOddNumberInRange",
             "request": "launch",
             "mainClass": "GreedyAlgorithms.Assignments.KthLargestOddNumberInRange",
