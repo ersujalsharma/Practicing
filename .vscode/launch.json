@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KthLargestOddNumberInRange",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.Assignments.KthLargestOddNumberInRange",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxmimumBalancedStringPartition",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.Assignments.MaxmimumBalancedStringPartition",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChocolaProblem",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.ChocolaProblem",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch JobSequencingProblem",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.JobSequencingProblem",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch IndianCoins",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.IndianCoins",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxLengthChainOfPairs",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.MaxLengthChainOfPairs",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinAbsDiffPairs",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.MinAbsDiffPairs",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.FractionalKnapsack",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "Launch ActivitySelection",
             "request": "launch",
             "mainClass": "GreedyAlgorithms.ActivitySelection",
