@@ -35,7 +35,7 @@ public class BinaryTreesPreOrder {
             System.out.print(-1+" ");
             return;
         }
-        System.out.print(r oot.data+" ");
+        System.out.print(root.data+" ");
         preOrder(root.left);
         preOrder(root.right);
     }
