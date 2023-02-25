@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryTreesPreOrder",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.BinaryTreesPreOrder",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuyAndSellStock",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.Assignments.BuyAndSellStock",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "Launch LexicographicallySmallest",
             "request": "launch",
             "mainClass": "GreedyAlgorithms.Assignments.LexicographicallySmallest",
