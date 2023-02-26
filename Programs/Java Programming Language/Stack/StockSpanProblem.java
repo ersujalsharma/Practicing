@@ -24,7 +24,7 @@ public class StockSpanProblem {
             if(!stack.isEmpty())
             span[i] = i-stack.peek();
             else
-                span[i] = i+1;.
+                span[i] = i+1;
             stack.push(i);
         }
     }

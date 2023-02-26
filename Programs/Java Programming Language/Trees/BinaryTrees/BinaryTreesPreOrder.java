@@ -1,6 +1,5 @@
 package Trees.BinaryTrees;
 
-import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -29,19 +28,61 @@ public class BinaryTreesPreOrder {
         }
     }
     public static void main(String[] args) {
-        int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1,6};
         BinaryTree b = new BinaryTree();
-        Node root = b.buildTree(nodes);
+        Node root = b.buildTree(nodes); 
         // preOrder(root);
         // inOrder(root);
         // postOrder(root);
-        levelOrder(root);
+        // levelOrder(root);
+        // int ans = heightOfATree(root);
+        int ans = sumOfNodes(root);
+        // int ans = countNodes(root);
+        System.out.println(ans);
     }
-    private static void levelOrder(Node root) {
+
+
+// 
+
+
+
+
+    private static int sumOfNodes(Node root) {
+        if(root == null)
+            return 0;
+        int leftSum = sumOfNodes(root.left);
+        int rightSum =  sumOfNodes(root.right);
+        return leftSum+rightSum+root.data;
+    }
+
+
+    private static int countNodes(Node root) {
+        if(root==null){
+            return 0;
+        }
+        int leftNodes = countNodes(root.left);
+        int rightNodes = countNodes(root.right);
+        return leftNodes+rightNodes+1; 
+    }
+
+
+    private static int heightOfATree(Node root) {
         if(root ==null){
+            return 0;
+        }
+        int max = Integer.MIN_VALUE;
+        int heightOfLeft = heightOfATree(root.left);
+        int heightOfRight = heightOfATree(root.right);
+        max = Math.max(heightOfLeft, heightOfRight);
+        return max+1;
+    }
+
+
+    private static void levelOrder(Node root) {
+        if(root==null){
             return;
         }
-        Queue<Node> queue = new Arra<>();
+        Queue<Node> queue = new LinkedList<>();
         queue.add(root);
         queue.add(null);
         while(!queue.isEmpty()){
@@ -56,7 +97,7 @@ public class BinaryTreesPreOrder {
                 }
             }
             else{
-                System.out.println(currentNode.data);
+                System.out.print(currentNode.data+" ");
                 if(currentNode.left!=null)
                 queue.add(currentNode.left);
                 if(currentNode.right!=null);
