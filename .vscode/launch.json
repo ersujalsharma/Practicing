@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthLevelTree",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.KthLevelTree",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTrees",
+            "request": "launch",
+            "mainClass": "BinaryTrees",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "TopViewOfAtree",
+            "request": "launch",
+            "mainClass": "TopViewOfAtree",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "SubTreeOfAnotherTree",
+            "request": "launch",
+            "mainClass": "SubTreeOfAnotherTree",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "DiameterTree",
+            "request": "launch",
+            "mainClass": "DiameterTree",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tester",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.Tester",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTrees",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.BinaryTrees",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryTreesPreOrder",
             "request": "launch",
             "mainClass": "Trees.BinaryTrees.BinaryTreesPreOrder",

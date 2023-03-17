@@ -3,10 +3,10 @@ package Trees.BinaryTrees;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BinaryTreesPreOrder {
+public class BinaryTrees {
     static class BinaryTree{
         static int index = -1;
-        public static Node buildTree(int[] nodes){
+        public Node buildTree(int[] nodes){
             index++;
             if(nodes[index]==-1){
                 return null;
@@ -36,8 +36,9 @@ public class BinaryTreesPreOrder {
         // postOrder(root);
         // levelOrder(root);
         // int ans = heightOfATree(root);
-        int ans = sumOfNodes(root);
+        // int ans = sumOfNodes(root);
         // int ans = countNodes(root);
+        int ans = diameter(root);
         System.out.println(ans);
     }
 
@@ -45,6 +46,17 @@ public class BinaryTreesPreOrder {
 // 
 
 
+
+
+    private static int diameter(Node root) {
+        if(root==null){
+            return 0;
+        }
+        int diameterbyRoot = heightOfATree(root.left)+heightOfATree(root.right)+1;
+        int leftDiameter = diameter(root.left);
+        int rightDiameter = diameter(root.right);
+        return Math.max(diameterbyRoot,Math.max(rightDiameter, leftDiameter));
+    }
 
 
     private static int sumOfNodes(Node root) {
