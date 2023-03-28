@@ -1,10 +1,12 @@
+package Trees.BinaryTrees;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class DiameterTree {
+public class TransformToSumTree {
     static class BinaryTree{
         static int index = -1;
-        public static Node buildTree(int[] nodes){
+        public Node buildTree(int[] nodes){
             index++;
             if(nodes[index]==-1){
                 return null;
@@ -26,34 +28,21 @@ public class DiameterTree {
         }
     }
     public static void main(String[] args) {
-        int[] arr = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
-        Node root = BinaryTree.buildTree(arr);
+        int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,6,-1,-1,7,-1,-1};
+        BinaryTree b = new BinaryTree();
+        Node root = b.buildTree(nodes);
+        transformToSumTree(root);
         levelOrder(root);
-        infor inf = diameter(root);
-        System.out.println(inf.diameter);
     }
-    static class infor{
-        int diameter;
-        int height;
-        
-        public infor() {
-        }
-
-        public infor(int diameter, int height) {
-            this.diameter = diameter;
-            this.height = height;
-        }
-        
-    }
-    private static infor diameter(DiameterTree.Node root) {
+    private static int transformToSumTree(Node root) {
         if(root == null){
-            return new infor();
+            return 0;
         }
-        infor leftInfo = diameter(root.left);
-        infor rightInfo = diameter(root.right);
-        int finaldiameter = Math.max(leftInfo.diameter,Math.max(rightInfo.diameter,leftInfo.height+rightInfo.height+1));
-        int finalheight = Math.max(leftInfo.height,rightInfo.height)+1;
-        return new infor(finaldiameter,finalheight);
+        int lst = transformToSumTree(root.left);
+        int rst = transformToSumTree(root.right);
+        int temp = root.data;
+        root.data = lst+rst;
+        return temp+root.data;
     }
     public static void levelOrder(Node root) {
         if(root==null){

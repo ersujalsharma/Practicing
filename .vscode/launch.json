@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IsBinaryTreeUnivaluedOrNot",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.Assignment.IsBinaryTreeUnivaluedOrNot",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "TransformToSumTree",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.TransformToSumTree",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "KthAncestorOfANode",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.KthAncestorOfANode",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "MinimumDistanceNodes",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.MinimumDistanceNodes",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "LowestCommonAncestor",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTrees.LowestCommonAncestor",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "KthLevelTree",
             "request": "launch",
             "mainClass": "Trees.BinaryTrees.KthLevelTree",
