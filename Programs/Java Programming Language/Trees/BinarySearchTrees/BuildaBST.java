@@ -20,17 +20,29 @@ public class BuildaBST {
         for(int i=0;i<values.length;i++){
             root = insert(root, values[i]);
         }
-        inorder(root);
-        int key = 1;
-        boolean val = searchKey(root,key);
-        System.out.println(val);
-        root = deleteNode(root,key);
-        inorder(root);
-        printInRange(root, 5, 10);
-        rootToLeafPaths(root,new ArrayList<>());
-        System.out.println();
+        // inorder(root);
+        // int key = 1;
+        // boolean val = searchKey(root,key);
+        // System.out.println(val);
+        // root = deleteNode(root,key);
+        // inorder(root);
+        // printInRange(root, 5, 10);
+        // rootToLeafPaths(root,new ArrayList<>());
+        // System.out.println();
         Node root1 = mirror(root);
-        inorder(root1);
+        int[] arr = {3,5,6,8,10,11,12};
+        Node root2 = sortedBalancedBST(arr,0,arr.length-1);
+        inorder(root2);
+    }
+    public static Node sortedBalancedBST(int[] arr, int i, int j){
+        if(i>j){
+            return null;
+        }
+        int mid = i+(j-i)/2;
+        Node root = new Node(arr[mid]);
+        root.left = sortedBalancedBST(arr,i, mid-1);
+        root.right = sortedBalancedBST(arr, mid+1, j);
+        return root;
     }
     public static Node mirror(Node root){
         if(root == null){
