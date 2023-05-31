@@ -33,7 +33,42 @@ public class BuildaBST {
         int[] arr = {3,5,6,8,10,11,12};
         Node root2 = sortedBalancedBST(arr,0,arr.length-1);
         inorder(root2);
+        largestBST(root2);
+        System.out.println(maxBST);
     }
+    static class Info{
+        boolean isBST;
+        int size;
+        int min;
+        int max;
+        public Info(boolean isBST, int size, int min, int max) {
+            this.isBST = isBST;
+            this.size = size;
+            this.min = min;
+            this.max = max;
+        }
+        
+    }
+    private static Info largestBST(Node root) {
+        if(root == null){
+            return new Info(true, 0, Integer.MAX_VALUE, Integer.MIN_VALUE);
+        }
+        Info leftInfo = largestBST(root.left);
+        Info rightInfo = largestBST(root.right);
+        int size = leftInfo.size+rightInfo.size+1;
+        int min = Math.min(root.data,Math.min(leftInfo.min,rightInfo.min));
+        int max = Math.max(root.data,Math.max(leftInfo.max,rightInfo.max));
+        if(root.data <=leftInfo.max || root.data>=rightInfo.min){
+            return new Info(false, size, min, max);
+        }
+        if(leftInfo.isBST && rightInfo.isBST){
+            maxBST = Math.max(maxBST, size);
+            return new Info(true, size, min, max);
+        }
+        return new Info(false, size, min, max);
+    }
+    public static int maxBST = 0;
+
     public static Node sortedBalancedBST(int[] arr, int i, int j){
         if(i>j){
             return null;
