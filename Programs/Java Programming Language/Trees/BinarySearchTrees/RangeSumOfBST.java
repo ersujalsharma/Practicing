@@ -1,4 +1,4 @@
-package Trees.BinarySearchTrees;
+
 class TreeNode {
          int val;
          TreeNode left;

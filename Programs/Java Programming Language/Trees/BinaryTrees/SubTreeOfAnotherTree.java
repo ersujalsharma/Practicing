@@ -1,4 +1,6 @@
-public class SubTreeOfAnotherTree {
+package Trees.BinaryTrees;
+
+class SubTreeOfAnotherTree {
     static class BinaryTree {
         int index = -1;
 
