@@ -15,27 +15,91 @@ public class BuildaBST {
         }
     }
     public static void main(String[] args) {
-        int[] values = {8,5,3,1,4,6,10,11,14};
-        Node root = null;
-        for(int i=0;i<values.length;i++){
-            root = insert(root, values[i]);
+        // int[] values = {8,5,3,1,4,6,10,11,14};
+        // Node root = null;
+        // for(int i=0;i<values.length;i++){
+        //     root = insert(root, values[i]);
+        // }
+        // // inorder(root);
+        // // int key = 1;
+        // // boolean val = searchKey(root,key);
+        // // System.out.println(val);
+        // // root = deleteNode(root,key);
+        // // inorder(root);
+        // // printInRange(root, 5, 10);
+        // // rootToLeafPaths(root,new ArrayList<>());
+        // // System.out.println();
+        // Node root1 = mirror(root);
+        // int[] arr = {3,5,6,8,10,11,12};
+        // Node root2 = sortedBalancedBST(arr,0,arr.length-1);
+        // inorder(root2);
+        // largestBST(root2);
+        // System.out.println(maxBST);
+        int[] values1 = {2,1,4};
+        Node root1 = null;
+        for(int i=0;i<values1.length;i++){
+            root1 = insert(root1, values1[i]);
         }
-        // inorder(root);
-        // int key = 1;
-        // boolean val = searchKey(root,key);
-        // System.out.println(val);
-        // root = deleteNode(root,key);
-        // inorder(root);
-        // printInRange(root, 5, 10);
-        // rootToLeafPaths(root,new ArrayList<>());
-        // System.out.println();
-        Node root1 = mirror(root);
-        int[] arr = {3,5,6,8,10,11,12};
-        Node root2 = sortedBalancedBST(arr,0,arr.length-1);
-        inorder(root2);
-        largestBST(root2);
-        System.out.println(maxBST);
+        int[] values2 = {5,3,7};
+        Node root2 = null;
+        for(int i=0;i<values2.length;i++){
+            root2 = insert(root2, values2[i]);
+        }
+        Node merged = merge2Bst(root1, root2);
+        inorder(merged);
     }
+    public static Node merge2Bst(Node root1,Node root2){
+        List<Integer> list1 = new ArrayList<>();
+        bstToSortedList(root1,list1);
+        System.out.println(list1);
+        List<Integer> list2 = new ArrayList<>();
+        bstToSortedList(root2,list2);
+        System.out.println(list2);
+
+        List<Integer> mergedArray = new ArrayList<>();
+        int i=0,j=0;
+        while(i<list1.size() && j<list2.size()){
+            if(list1.get(i)<=list2.get(j)){
+                mergedArray.add(list1.get(i));
+                i++;
+            }
+            else{
+                mergedArray.add(list2.get(j));
+                j++;
+            }
+        }
+        while(i<list1.size()){
+            mergedArray.add(list1.get(i));
+            i++;
+        }
+        while(j<list2.size()){
+            mergedArray.add(list2.get(j));
+            j++;
+        }
+
+        System.out.println(mergedArray);
+        return sortedToBST(mergedArray, 0, mergedArray.size()-1);
+        // return sortedToBST(mergedArray, 0, mergedArray.size()-1);
+    } 
+    private static void bstToSortedList(Node root,List<Integer> list) {
+        if(root == null) return;
+        bstToSortedList(root.left,list);
+        list.add(root.data);
+        bstToSortedList(root.right,list);
+     }
+    public static Node sortedToBST(List<Integer> arr, int i, int j){
+        if(i>j){
+            return null;
+        }
+        int mid = i+(j-i)/2;
+        Node root = new Node(arr.get(mid));
+        root.left = sortedToBST(arr,i, mid-1);
+        root.right = sortedToBST(arr, mid+1, j);
+        return root;
+    }
+
+    
+
     static class Info{
         boolean isBST;
         int size;
