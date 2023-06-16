@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classRoom",
+            "request": "launch",
+            "mainClass": "Heaps.classRoom",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "PQ",
+            "request": "launch",
+            "mainClass": "Heaps.PQ",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "JustForFun",
+            "request": "launch",
+            "mainClass": "JustForFun",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "BuildaBST",
             "request": "launch",
             "mainClass": "Trees.BinarySearchTrees.BuildaBST",
