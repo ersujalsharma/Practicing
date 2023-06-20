@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConnectNRopes",
+            "request": "launch",
+            "mainClass": "Heaps.ConnectNRopes",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "NearByCars",
+            "request": "launch",
+            "mainClass": "Heaps.NearByCars",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "Heaps.HeapSort",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Heap",
+            "request": "launch",
+            "mainClass": "Heaps.Heap",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "classRoom",
             "request": "launch",
             "mainClass": "Heaps.classRoom",
