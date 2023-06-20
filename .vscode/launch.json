@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WeakestSoldier",
+            "request": "launch",
+            "mainClass": "Heaps.WeakestSoldier",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "ConnectNRopes",
             "request": "launch",
             "mainClass": "Heaps.ConnectNRopes",
