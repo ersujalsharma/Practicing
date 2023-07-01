@@ -6,6 +6,174 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "Car",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "ImplementationUsingAdjacencyList",
+            "request": "launch",
+            "mainClass": "Graph.ImplementationUsingAdjacencyList",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "LongestWordwithAllPrefixes",
+            "request": "launch",
+            "mainClass": "Tries.LongestWordwithAllPrefixes",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "UniqueSubstrings",
+            "request": "launch",
+            "mainClass": "Tries.UniqueSubstrings",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Oops",
+            "request": "launch",
+            "mainClass": "Oops",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "StartsWith",
+            "request": "launch",
+            "mainClass": "Tries.StartsWith",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "PrefixProblem",
+            "request": "launch",
+            "mainClass": "Tries.PrefixProblem",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "ImplementationOfTries",
+            "request": "launch",
+            "mainClass": "Tries.ImplementationOfTries",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "WordBreakProblem",
+            "request": "launch",
+            "mainClass": "Tries.WordBreakProblem",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "DistinctPairsCalculator",
+            "request": "launch",
+            "mainClass": "DistinctPairsCalculator",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "SubArraySumEqualToK",
+            "request": "launch",
+            "mainClass": "Hashing.Map.SubArraySumEqualToK",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "LargestSubArraySumWithSumEqualZero",
+            "request": "launch",
+            "mainClass": "Hashing.Map.LargestSubArraySumWithSumEqualZero",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "FindIteranaryfromTickets",
+            "request": "launch",
+            "mainClass": "Hashing.Set.FindIteranaryfromTickets",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "UnionAndIntersection",
+            "request": "launch",
+            "mainClass": "Hashing.Set.UnionAndIntersection",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "CountDistinctElement",
+            "request": "launch",
+            "mainClass": "Hashing.Set.CountDistinctElement",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "HashSetPracticing",
+            "request": "launch",
+            "mainClass": "Hashing.Set.HashSetPracticing",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagrams",
+            "request": "launch",
+            "mainClass": "Hashing.Map.ValidAnagrams",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "Hashing.Map.MajorityElement",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashMapCode",
+            "request": "launch",
+            "mainClass": "Hashing.Map.LinkedHashMapCode",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "HashMapCode$HashMap",
+            "request": "launch",
+            "mainClass": "Hashing.Map.HashMapCode$HashMap",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "HashMapping",
+            "request": "launch",
+            "mainClass": "Hashing.Map.HashMapping",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Point",
+            "request": "launch",
+            "mainClass": "Programs.Development.Point",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "SWM",
+            "request": "launch",
+            "mainClass": "Heaps.SWM",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "WeakestSoldier",
             "request": "launch",
             "mainClass": "Heaps.WeakestSoldier",
