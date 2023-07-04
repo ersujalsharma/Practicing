@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DijksrtasAlgorithm",
+            "request": "launch",
+            "mainClass": "Graph.DijksrtasAlgorithm",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "DirectedGraph",
+            "request": "launch",
+            "mainClass": "Graph.DirectedGraph",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "GraphTraversal",
+            "request": "launch",
+            "mainClass": "Graph.GraphTraversal",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "BSFTraversal",
+            "request": "launch",
+            "mainClass": "Graph.BSFTraversal",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "Car",
             "request": "launch",
             "mainClass": "Car",
