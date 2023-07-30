@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShortestPathAlternatingColorLeetCode1129",
+            "request": "launch",
+            "mainClass": "Graph.ShortestPathAlternatingColorLeetCode1129",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "LCS",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.LCS",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.CoinChange",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "TargetSumSubset",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.TargetSumSubset",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Codechef",
+            "request": "launch",
+            "mainClass": "Codechef",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "KnpSackZeroOrOne",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.KnpSackZeroOrOne",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "CountingWaysToStairs",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.CountingWaysToStairs",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci_Recursion",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Fibonacci_Recursion",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "KrukshalsAlgorithm",
+            "request": "launch",
+            "mainClass": "Graph.DSU.KrukshalsAlgorithm",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "DisjointSetUnion",
+            "request": "launch",
+            "mainClass": "Graph.DisjointSetUnion",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "ConnectingCities",
             "request": "launch",
             "mainClass": "Graph.ConnectingCities",
