@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MCM",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.MCM",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "Searching.BinarySearch",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "CatalansNumber",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.CatalansNumber",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "ShortestPathAlternatingColorLeetCode1129",
             "request": "launch",
             "mainClass": "Graph.ShortestPathAlternatingColorLeetCode1129",
