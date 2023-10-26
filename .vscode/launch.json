@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PqClass$Heap",
+            "request": "launch",
+            "mainClass": "Heaps.PqClass$Heap",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "PqClass",
+            "request": "launch",
+            "mainClass": "Heaps.PqClass",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Pq",
+            "request": "launch",
+            "mainClass": "Heaps.Pq",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "MCM",
             "request": "launch",
             "mainClass": "DynamicProgramming.MCM",
