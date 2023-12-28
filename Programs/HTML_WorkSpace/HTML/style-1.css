@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(20, 92, 68);
+}
+
+nav{
+    margin: 1%;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-transform: capitalize;
+    font-style: oblique;    
+}
+
+a{
+    color: rgb(243, 247, 167);
+    text-decoration: none;
+}
+
+.heading{
+    margin: 2%;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: x-large;
+    animation: textLarge 3s linear 1;
+}
+
+@keyframes textLarge{
+    from{
+        font-size: large;
+    }
+    to{
+        font-size:x-large
+    }
+}
+
+img{
+    margin-left: 25%;
+}
+
+.card{
+    min-height: 200px;
+    width: 25%;
+    border: 3px rgb(77, 71, 71) solid;
+    margin-left: 2%;  
+    border-radius: 10%;
+    transition: all 2s linear; 
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.text{
+    margin: 5%;
+}
+
+.card-title{
+    margin: 5%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.container{
+    margin-top: 5%;   
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 10%;    
+}

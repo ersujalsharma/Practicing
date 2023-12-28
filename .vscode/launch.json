@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CPUScheduling",
+            "request": "launch",
+            "mainClass": "Programs.SchedulingAlgorithm.CPUScheduling",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "FirstComeFirstServe",
+            "request": "launch",
+            "mainClass": "Programs.SchedulingAlgorithm.FirstComeFirstServe",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Programs.CodeForces.Solution",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
+            "name": "Isomorphic",
+            "request": "launch",
+            "mainClass": "Isomorphic",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "PqClass$Heap",
             "request": "launch",
             "mainClass": "Heaps.PqClass$Heap",
