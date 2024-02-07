@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DisjoinSetUnionByRank",
+            "request": "launch",
+            "mainClass": "Graph.DSU.DisjoinSetUnionByRank",
+            "projectName": "Practicing_275d5314"
+        },
+        {
+            "type": "java",
             "name": "CPUScheduling",
             "request": "launch",
             "mainClass": "Programs.SchedulingAlgorithm.CPUScheduling",

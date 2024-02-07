@@ -1,0 +1,8 @@
+<div [ngSwitch]="myChoice">
+    <p *ngSwitchCase="1">First Choice</p>
+    <p *ngSwitchCase="2">Second Choice</p>
+    <p *ngSwitchCase="3">Third Choice</p>
+    <p *ngSwitchCase="2">Second Choice Again</p>
+    <p *ngSwitchDefault>Default Choice</p>
+  </div>
+<button (click)="nextChoice()">Next Choice</button>

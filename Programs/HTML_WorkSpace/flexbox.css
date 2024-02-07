@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    border: 1px dashed black;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    margin: 5px;
+    border: 1px solid;
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../LoginToTrainee1610360469631"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Practicing",
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

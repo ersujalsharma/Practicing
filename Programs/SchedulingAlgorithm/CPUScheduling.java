@@ -20,19 +20,26 @@ public class CPUScheduling {
         arr[1] = new PCB("P2",7,4);
         arr[2] = new PCB("P3",2,9);
         arr[3] = new PCB("P4",3,3);
-        applyFCFS(arr);
-        applySJF(arr);
+        // applyFCFS(arr);
+        // applySJF(arr);
+        applySJFPreEmptive(arr);
     }
     
-    private static void applySJF(PCB[] arr) {
+    private static void applySJFPreEmptive(PCB[] arr) {
         int time = 0;
         int processes = arr.length;
         boolean visited[] = new boolean[arr.length];
         PriorityQueue<PCB> pq = new PriorityQueue<>((a,b)->a.burstTime-b.burstTime);
         while(processes>0){
             if(!pq.isEmpty()){
-                System.out.print(pq.peek().name);
-                time += pq.poll().burstTime;
+                System.out.print(pq.peek().name+" ");
+                PCB recent = pq.poll();
+                if(recent.burstTime-1>0)
+                    pq.add(new PCB(recent.name,recent.arrivalTime,recent.burstTime-1));
+                else{
+                    processes--;
+                }
+                time++;
             }
             for(int i=0;i<arr.length;i++){
                 if(arr[i].arrivalTime<=time && !visited[i]){
@@ -42,7 +49,29 @@ public class CPUScheduling {
             }
             time++;
         }
-        System.out.println(pq);
+        // System.out.println(pq);
+    }
+
+    private static void applySJF(PCB[] arr) {
+        int time = 0;
+        int processes = arr.length;
+        boolean visited[] = new boolean[arr.length];
+        PriorityQueue<PCB> pq = new PriorityQueue<>((a,b)->a.burstTime-b.burstTime);
+        while(processes>0){
+            if(!pq.isEmpty()){
+                System.out.print(pq.peek().name+" ");
+                time += pq.poll().burstTime;
+                processes--;
+            }
+            for(int i=0;i<arr.length;i++){
+                if(arr[i].arrivalTime<=time && !visited[i]){
+                    pq.add(arr[i]);
+                    visited[i] = true;
+                }
+            }
+            time++;
+        }
+        // System.out.println(pq);
     }
 
     private static void applyFCFS(PCB[] arr) {
