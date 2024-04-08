@@ -10,6 +10,14 @@ export class AppComponent {
   nextChoice() {
     this.myChoice++;
   }
+  firstImage = false;
+  first(){
+    this.firstImage = true;
+  }
+  second(){
+
+  }
+  third()
 }
 
 

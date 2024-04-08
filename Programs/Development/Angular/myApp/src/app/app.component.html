@@ -1,8 +1,11 @@
-<div [ngSwitch]="myChoice">
-    <p *ngSwitchCase="1">First Choice</p>
-    <p *ngSwitchCase="2">Second Choice</p>
-    <p *ngSwitchCase="3">Third Choice</p>
-    <p *ngSwitchCase="2">Second Choice Again</p>
-    <p *ngSwitchDefault>Default Choice</p>
-  </div>
-<button (click)="nextChoice()">Next Choice</button>
+<div  style="display: block;flex-wrap: wrap;flex: auto ; width: 150px;">
+Assignement 4
+<img src="../assets/85f686f479cd658db6c75845cd22b52a.jpg" alt="" height="50px" width="50px"  (mouseenter)="first()">
+<img src="../assets/HD-wallpaper-gulab-ke-phool-wala-animated-flower-thumbnail.jpg" alt="" height="50px" width="50px">
+<img src="../assets/HD-wallpaper-gulab-phool-wala-animated-rose-in-pot-flower.jpg" alt="" height="50px" width="50px">
+</div>
+<div>
+  <div *ngIf="first"></div>
+  <div *ngIf="second"></div>
+</div>
+
